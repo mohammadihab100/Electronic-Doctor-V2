@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score
 
 # Collecting Data
 
-get_dataset = input("please put the data set here: ") 
+get_dataset = "Heart Disease Data" 
 
 heartData = pd.read_csv(get_dataset)
 # targetColumn= input("Please enter the target Column name: ")
