@@ -44,3 +44,4 @@ def MakePrediction():
     else:
         x=1
     return(x)
+DiabetesTest()
