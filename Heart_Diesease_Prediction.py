@@ -75,7 +75,7 @@ print ("Accuracy: " , (dataAccurcy * 100), "%")
 scaler = StandardScaler()
 scaler.fit(features)
 def MakePrediction2():
-    xDiabetes= "Some Error Has Happened."
+    xHeart= "Some Error Has Happened."
     input_tuple = tuple([eval(val) for val in input("Please enter some values: ").split(',')])
     print('tuple:',input_tuple)
     input_data_as_numpy_array = np.asarray(input_tuple)
@@ -87,7 +87,7 @@ def MakePrediction2():
     print(prediction)
 
     if (prediction[0] == 0):
-        xDiabetes=0
+        xHeart=0
     else:
-        xDiabetes=1
-    return(xDiabetes)
+        xHeart=1
+    return(xHeart)
