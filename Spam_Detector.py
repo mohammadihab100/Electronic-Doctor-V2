@@ -11,7 +11,7 @@ category = input("Please enter the name of the main column: ")
 
 message = input("Please enter the name of the message or numerical column: ")
 
-mailDataRaw = pd.read_csv('Datasets\Spam\spam_ham_dataset.csv')
+mailDataRaw = pd.read_csv('spam_ham_dataset.csv')
 
 # Modyfing the null values to null strings
 
