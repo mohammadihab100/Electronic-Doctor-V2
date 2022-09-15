@@ -12,7 +12,7 @@ from googleapiclient.errors import HttpError
 from google.auth.transport.requests import Request
 from httplib2 import Http
 import datefinder
-from Heart_Diesease_Prediction import *
+from Final_Project_Prediction import *
 from oauth2client import file, client, tools
 from dateutil import parser
 import os.path
